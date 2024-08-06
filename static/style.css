@@ -1,0 +1,96 @@
+body {
+    background-image: url(../static/background.jpg);
+    font-family: 'Pangolin', cursive;
+    background-blend-mode: lighten;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.heading {
+    height: fit-content;
+    width: fit-content;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-left: 10em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+
+.game_container{
+    background-color: rgb(204, 230, 253);
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 5em;
+    height: 35rem;
+    width: 95rem;
+    border-radius: 2.5em;
+}
+
+.user{
+    background-color: rgb(204, 230, 253);
+    width:35em;
+    padding: 10px;
+    
+    border-radius: 2.5em;
+}
+#question{
+ background-color: aquamarine;
+ margin-left: 1.2rem;
+ margin-top: 1em;
+ padding:1em;
+ width:25em;
+ height: 2.5em; 
+ border-radius: 2.5em;
+ font-size: 1.2em;
+ text-align: center;
+ 
+}
+
+#text{
+    font-size: 1.3em;
+}
+#input-answer{
+
+ margin-left: 4.5em;
+ margin-top: 5em;
+ padding-left: 0.5em;
+ border-radius: 2.5em;
+ height: 2.5em;
+ width:15em;
+}
+
+#submit{
+    width: 40%;
+    background-color: #66e8d8;
+    padding: 0.3em;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 3em;
+    font-weight: 6;
+    margin-top: 4.5em;
+    margin-left: 2em;
+}
+.answer{
+    background-color: rgb(205, 231, 253);
+    width:25em;
+    padding: 1px;
+    border-radius: 2.5em;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 35px;
+}
+.next{
+    margin-top: 400px;
+}
+#next-btn{
+    width: 20%;
+    background-color: #fcf969;
+    padding: 0.3em;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 3em;
+    font-weight: 6;
+    margin-bottom: 4px;
+    margin-left: 2em;
+}

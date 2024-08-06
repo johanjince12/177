@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Me</title>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Google Font --> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">    
+
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/game.js"></script>
+    
+    <div class="container">
+        <div class="heading">GuessMe ??</div>
+    </div>
+    <div class="game_container">
+        <div class="user">
+            <div id="question"></div>
+            <div class="input-div">
+                <span id="text">Answer:-<input id="input-answer" type="text"/></span>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        
+        <div>
+            <div class="answer">
+            </div>
+            <div class="next"><button id="next-btn">next</button></div>
+
+        </div>
+    </div>
+ 
+</body>
+</html>
